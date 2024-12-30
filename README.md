@@ -1,3 +1,5 @@
+<img width="250px" src="https://neon.tech/brand/neon-logo-dark-color.svg" />
+
 # Running Neon database migrations in a Laravel project
 
 This application is a simple PHP application built using the Laravel framework and Neon database. It returns a list of authors and books written by them. This project uses the built-in Eloquent ORM to interact with the database and generate/run migrations. 
