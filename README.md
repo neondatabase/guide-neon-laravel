@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://neon.com/brand/neon-logo-dark-color.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://neon.com/brand/neon-logo-light-color.svg">
+  <img width="250px" alt="Neon Logo fallback" src="https://neon.com/brand/neon-logo-dark-color.svg">
+</picture>
+
 # Running Neon database migrations in a Laravel project
 
 This application is a simple PHP application built using the Laravel framework and Neon database. It returns a list of authors and books written by them. This project uses the built-in Eloquent ORM to interact with the database and generate/run migrations. 
